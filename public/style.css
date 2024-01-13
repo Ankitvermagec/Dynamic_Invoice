@@ -1,0 +1,107 @@
+.section2 .c1 ,.section2 .c2{
+    background-color: #fffffffb;
+    box-shadow: 0px 2px 4px gray;
+    padding: 15px;
+    height:fit-content;
+    border-radius: 5px;
+}
+
+.section2 label{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.section2 .form-control,.section2 .form-select ,.section3 .r1 .form-control ,.section3 .r1 .form-select ,.section4 .form-control ,.section4 .form-select
+,.section5 .form-control{
+    background-color: #fff;
+}
+
+.section2 input::placeholder ,.section2 select,.section3 .r1 ,.section3 input::placeholder ,.section3 select  ,.section4 input::placeholder,.section5 textarea::placeholder{
+    color: black;
+}
+
+
+
+.section3 .r1 ,.section4,.section5{
+    background-color: #fffffffb;
+    box-shadow: 0px 2px 4px gray;
+    padding: 5px;
+    height:fit-content;
+    border-radius: 5px;
+}
+
+.section3 label ,.section4 label ,.section5 label{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 0;
+}
+
+.section4 label{
+    /* border-bottom: 2px solid gray; */
+}
+
+.section4 .r2{
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 5px;
+   
+}
+
+.section4 button{
+    background-color: rgba(0, 0, 255, 0.672);
+    border: none;
+    border-radius: 5px;
+}
+
+
+.section5 textarea{
+    color: #000000bd;
+    padding:0;
+    font-size: smaller;
+    font-weight: 600;
+}
+.section5 .form-floating{
+    padding-top: 0;
+}
+
+
+.section6,.section7{
+    background-color: #fffffffb;
+    box-shadow: 0px 2px 4px gray;
+    padding:15px;
+    /* height:fit-content; */
+    border-radius: 5px;
+}
+
+.section7{
+    background-color: #fffffffb;
+    box-shadow: 0px 2px 4px gray;
+    padding:15px;
+    /* height:fit-content; */
+    border-radius: 5px;
+    color: black;
+    font-size: 14px;
+
+    /* position: relative; */
+    margin: 0 -22px 0 -24px;
+    border-radius: inherit;
+    
+
+}
+.section7 #span1{
+    font-weight: 600;
+}
+
+@media (max-width:886px) {
+    .section2 .c2{
+        margin-top: 20px;
+    }
+
+    .section7{
+        margin: 0px -12px 0 -12px;
+    }
+}
+
